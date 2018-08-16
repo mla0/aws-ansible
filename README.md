@@ -65,7 +65,9 @@ SUCCESS:
 However, when trying to access $servername:80, could not  
 Had to add a new security rule to allow http traffic on port 80  
 ***SUCCESS!!!***
+ 
+Refactor YAML file to use yum instead of the hacky 'shell' - tested as working fine, and code added to repo
 
+***Next Steps***
 
-# Next Steps  
-Refactor YAML file to use yum
+Learn how to also install Python automatically instead of manually 
