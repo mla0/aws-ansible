@@ -2,7 +2,10 @@
 - hosts: all
   tasks:
    - name: Ensure Nginx is installed at 1.12
-     shell: sudo amazon-linux-extras install nginx1.12
+       yum:
+        name: nginx
+        state: latest
+
    - name: start nginx
      service:
        name: nginx
