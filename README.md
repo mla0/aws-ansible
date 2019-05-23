@@ -70,4 +70,4 @@ Refactor YAML file to use yum instead of the hacky 'shell' - tested as working f
 
 ***Next Steps***
 
-Learn how to also install Python automatically instead of manually 
+Learn how to also install Python automatically instead of manually - ***Have started a bootstrap.yml for this...***
