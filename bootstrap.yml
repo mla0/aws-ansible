@@ -12,5 +12,4 @@
       #The below line means this can be used on Ubuntu or CentOS - This works by first testing for the presence of the /usr/bin/apt command which is only present on Ubuntu systems
       raw: test -e /usr/bin/apt && (apt -y update && apt install -y python-minimal) || (yum -y install python libselinux-python)
       when: check_python.rc != 0
-      
       #Using Ansible's import_playbook directive, we can now import this play into any playbook:- 'import_playbook: bootstrap.yml'
