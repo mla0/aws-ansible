@@ -1,6 +1,8 @@
 # aws-ansible
 Quick and dirty Ansible playbook and files for deploying to AWS EC2 Instance
 
+[![CodeFactor](https://www.codefactor.io/repository/github/mla0/aws-ansible/badge)](https://www.codefactor.io/repository/github/mla0/aws-ansible)
+
 # The Task:
 + Using the AWS console, build a tiny instance in the sandbox
 + Using that hosts IP, deploy Nginx using Ansible
