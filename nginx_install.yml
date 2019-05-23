@@ -1,5 +1,6 @@
 ---
 - import_playbook: bootstrap.yml
+
 - hosts: all
   tasks:
    - name: Ensure Nginx is installed at 1.12
