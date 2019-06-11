@@ -72,4 +72,4 @@ Refactor YAML file to use yum instead of the hacky 'shell' - tested as working f
 
 ***Next Steps***
 
-Learn how to also install Python automatically instead of manually - ***Have started a bootstrap.yml for this...***
+Learn how to also install Python automatically instead of manually - This is now done - can be found in bootstrap.yml, which is called by nginx_install.yml
