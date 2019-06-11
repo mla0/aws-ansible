@@ -1,4 +1,5 @@
 ---
+#bootstrap.yml will install Python
 - import_playbook: bootstrap.yml
 
 - hosts: all
