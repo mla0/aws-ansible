@@ -73,3 +73,14 @@ Refactor YAML file to use yum instead of the hacky 'shell' - tested as working f
 ***Next Steps***
 
 Learn how to also install Python automatically instead of manually - This is now done - can be found in bootstrap.yml, which is called by nginx_install.yml
+
+Fails with following error on - *Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-0ebbf2179e615c338 (64-bit x86)* :
+`fatal: [ec2-3-16-218-241.us-east-2.compute.amazonaws.com]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]} `
+
+I think this is because it's missing the correct repo for that AMI
+
+Tested and working fine on - *Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-04768381bf606e2b3*
+
+
+
+
