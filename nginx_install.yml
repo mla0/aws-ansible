@@ -3,7 +3,7 @@
 
 - hosts: all
   tasks:
-   - name: Ensure Nginx is installed at 1.12
+   - name: Ensure Latest Nginx is installed
      yum:
         name: nginx
         state: latest
