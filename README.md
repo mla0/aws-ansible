@@ -68,11 +68,9 @@ However, when trying to access $servername:80, could not
 Had to add a new security rule to allow http traffic on port 80  
 ***SUCCESS!!!***
  
-Refactor YAML file to use yum instead of the hacky 'shell' - tested as working fine, and code added to repo
+Refactor YAML file to use yum instead of the hacky 'shell' - **tested as working fine, and code added to repo**
 
-***Next Steps***
-
-Learn how to also install Python automatically instead of manually - This is now done - can be found in bootstrap.yml, which is called by nginx_install.yml
+Learn how to also install Python automatically instead of manually - **This is now done - can be found in bootstrap.yml, which is called by nginx_install.yml**
 
 Fails with following error on - *Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-0ebbf2179e615c338 (64-bit x86)* :
 `fatal: [ec2-3-16-218-241.us-east-2.compute.amazonaws.com]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]} `
