@@ -1,0 +1,18 @@
+    aws_access_key: <enter AWS access key>
+    aws_secret_key: <enter AWS secret key>
+    key_name: <enter private key file alias name>
+    aws_region: <enter AWS region>
+    vpc_id: <enter VPC ID>
+    ami_id: ami-6d1c2007
+    instance_type: m4.2xlarge
+    my_local_cidr_ip: <enter cidr_ip>
+    
+    
+  #aws_access_key: You need to enter your AWS Access key
+  #aws_secret_key: You need to enter your AWS Secret key
+  #key_name: The alias name you gave to the AWS private key which you will use to SSH into the instances. In my case I created a key called ansible.
+  #aws_region: The AWS region where you want to deploy your instances. In my case I am using us-east-1.
+  #vpc_id: The specific VPC in which you want to place your instances.
+  #ami_id: The specific AMI you want to deploy for your instances. The ami-6d1c2007 AMI is a CentOS 7 image.
+  #instance_type: The type of AWS instance. For deploying Hadoop, I recommend at least m4.2xlarge. A faster alternative is c4.4xlarge.
+  #my_local_cidr_ip: Your local computer's CIDR IP address. This is used for creating the security rules that allow your local computer to access the instances. An example CIDR format is 192.168.1.1/32. Make sure this set to your computer's public IP address.
