@@ -79,6 +79,6 @@ I think this is because it's missing the correct repo for that AMI
 
 **Tested and working fine on - *Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-04768381bf606e2b3***
 
-
+Am now trying to also provision the infra, before installing...
 
 
